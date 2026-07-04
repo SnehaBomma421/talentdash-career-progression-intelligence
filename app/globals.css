@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+:root {
+  --td-coral: #FF5A5F;
+  --td-black: #222222;
+  --td-body: #484848;
+  --td-muted: #717171;
+  --td-surface: #FFFFFF;
+  --td-bg: #F7F7F7;
+  --td-border: #EBEBEB;
+  --td-green: #008A05;
+  --td-orange: #FFB400;
+  --td-error: #D93025;
+  --td-hover: #F2F2F2;
+  --td-blue: #0369A1;
+}
+
+@theme inline {
+  --color-td-coral: var(--td-coral);
+  --color-td-black: var(--td-black);
+  --color-td-body: var(--td-body);
+  --color-td-muted: var(--td-muted);
+  --color-td-surface: var(--td-surface);
+  --color-td-bg: var(--td-bg);
+  --color-td-border: var(--td-border);
+  --color-td-green: var(--td-green);
+  --color-td-orange: var(--td-orange);
+  --color-td-error: var(--td-error);
+  --color-td-hover: var(--td-hover);
+  --color-td-blue: var(--td-blue);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--td-bg);
+  color: var(--td-body);
+  font-family: system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
